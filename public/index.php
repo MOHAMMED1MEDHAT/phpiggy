@@ -1,6 +1,5 @@
 <?php
 
-// phpinfo();
-ini_get('memory_limit', '256M');
-echo ini_get('memory_limit');
-// echo "<h1>Hello World!</h1>";
+$app = include __DIR__ . '/../src/App/bootstrap.php';
+
+$app->run();
