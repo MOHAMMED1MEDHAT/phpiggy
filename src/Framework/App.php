@@ -8,6 +8,6 @@ class App
 {
     public function run(): void
     {
-        echo "Application is running";
+        echo "Application is running on port 80";
     }
 }
