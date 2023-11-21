@@ -10,4 +10,9 @@ class App
     {
         echo "Application is running on port 80";
     }
+
+    public function kill(): void
+    {
+        echo "Application is terminated";
+    }
 }
